@@ -83,4 +83,7 @@ Otra medida de seguridad es que todo sucede en local a no ser que los enviemos a
 
   Antes de fusionar, debes actualizar tu rama dev local: git fetch
 
-  Por último, puedes fusionar tu rama de características en la rama dev: git merge
+  Por último, puedes fusionar tu rama de características en la rama dev: git merge  
+  
+  ## Hoja de Comandos para GIT  
+  !(https://education.github.com/git-cheat-sheet-education.pdf)
