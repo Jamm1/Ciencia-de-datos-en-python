@@ -75,3 +75,12 @@ Una manera segura para deshacer nuestras commits es utilizar git revert. Para ve
 La ventaja de utilizar git revert es que no afecta al commit histórico. Esto significa que puedes seguir viendo todos los commits en tu histórico, incluso los revertidos.
 
 Otra medida de seguridad es que todo sucede en local a no ser que los enviemos al repositorio remoto. Por esto es que git revert es más seguro de usar y es la manera preferida para deshacer los commits.
+  10. Git merge Cuando ya hayas completado el desarrollo de tu proyecto en tu rama y todo funcione correctamente, el último paso es fusionar la rama con su rama padre (dev o master). Esto se hace con el comando git merge. Git merge básicamente integra las características de tu rama con todos los commits realizados a las ramas dev (o master). Es importante que recuerdes que tienes que estar en esa rama específica que quieres fusionar con tu rama de características.
+
+  Por ejemplo, cuando quieres fusionar tu rama de características en la rama dev:
+
+  Primero, debes cambiarte a la rama dev: git checkout dev
+
+  Antes de fusionar, debes actualizar tu rama dev local: git fetch
+
+  Por último, puedes fusionar tu rama de características en la rama dev: git merge
