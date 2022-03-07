@@ -13,14 +13,14 @@ y cuando, y más informacion que ayuda a la identificacion del codigo y al orden
 de los archivos de un proyecto. En cambio, cada usuario “clona” una copia de un repositorio (una colección de archivos) y tiene el historial completo 
 del proyecto en su propio disco duro. Este clon tiene todos los metadatos del original, mientras que el original en sí se almacena en un servidor 
 autohospedado o en un servicio de alojamiento de terceros como GitHub.  
-Principales Comandos  
-1.Git clone   
+## Principales Comandos  
+1. Git clone   
 Git clone es un comando para descargarte el código fuente existente desde un repositorio remoto (como Github, por ejemplo). 
 En otras palabras, Git clone básicamente realiza una copia idéntica de la última versión de un proyecto en un repositorio y la guarda en tu ordenador.  
   
 git clone < link-con-nombre-del-repositorio >  
 
-2.Git branch   
+2. Git branch   
 Las ramas (branch) son altamente importantes en el mundo de Git. Usando ramas, varios desarrolladores 
 pueden trabajar en paralelo en el mismo proyecto simultáneamente. Podemos usar el comando git branch para crearlas,
  listarlas y eliminarlas.  
@@ -30,7 +30,7 @@ Visualización de ramas: git branch git branch --list
   
 Borrar una rama: git branch -d  
   
-3.Git checkout   
+3. Git checkout   
 Este es también uno de los comandos más utilizados en Git. 
 Para trabajar en una rama, primero tienes que cambiarte a ella.
  Usaremos git checkout principalmente para cambiarte de una rama a otra. 
@@ -38,7 +38,7 @@ Para trabajar en una rama, primero tienes que cambiarte a ella.
 
 Hay también un comando de acceso directo que te permite crear y cambiarte a esa rama al mismo tiempo: git checkout -b
 
-4.Git status   
+4. Git status   
 El comando de git status nos da toda la información necesaria sobre la rama actual.   
 git status  
 Podemos encontrar información como:   
@@ -47,7 +47,7 @@ Podemos encontrar información como:
 --Si hay archivos en preparación (staged), sin preparación(unstaged) o que no están recibiendo seguimiento (untracked) 
 Si hay archivos creados, modificados o eliminados
 
-5.Git add   
+5. Git add   
 Cuando creamos, modificamos o eliminamos un archivo, estos cambios suceden en local y no se incluirán en el 
 siguiente commit (a menos que cambiemos la configuración). Necesitamos usar el comando git add para incluir los 
 cambios del o de los archivos en tu siguiente commit.  
