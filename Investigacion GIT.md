@@ -74,10 +74,12 @@ Una manera segura para deshacer nuestras commits es utilizar git revert. Para ve
 
 La ventaja de utilizar git revert es que no afecta al commit histórico. Esto significa que puedes seguir viendo todos los commits en tu histórico, incluso los revertidos.
 
-Otra medida de seguridad es que todo sucede en local a no ser que los enviemos al repositorio remoto. Por esto es que git revert es más seguro de usar y es la manera preferida para deshacer los commits.
-    10. Git merge Cuando ya hayas completado el desarrollo de tu proyecto en tu rama y todo funcione correctamente, el último paso es fusionar la rama con su rama padre (dev o master). Esto se hace con el comando git merge. Git merge básicamente integra las características de tu rama con todos los commits realizados a las ramas dev (o master). Es importante que recuerdes que tienes que estar en esa rama específica que quieres fusionar con tu rama de características.
-
-  Por ejemplo, cuando quieres fusionar tu rama de características en la rama dev:  Primero, debes cambiarte a la rama dev: git checkout dev  Antes de fusionar, debes actualizar tu rama dev local: git fetch  Por último, puedes fusionar tu rama de características en la rama dev: git merge  
+Otra medida de seguridad es que todo sucede en local a no ser que los enviemos al repositorio remoto. 
+Por esto es que git revert es más seguro de usar y es la manera preferida para deshacer los commits.  
+10. Git merge Cuando ya hayas completado el desarrollo de tu proyecto en tu rama y todo funcione correctamente, el último paso es fusionar la rama con su rama padre (dev o master). Esto se hace con el comando git merge. Git merge básicamente integra las características de tu rama con todos los commits realizados a las ramas dev (o master). Es importante que recuerdes que tienes que estar en esa rama específica que quieres fusionar con tu rama de características.
+  Por ejemplo, cuando quieres fusionar tu rama de características en la rama dev:  Primero, debes cambiarte a la rama dev: git checkout dev  
+    Antes de fusionar, debes actualizar tu rama dev local: git fetch    Por último, puedes fusionar tu rama de características en la rama dev: git merge  
   
   ## Hoja de Comandos para GIT  
-  ![Comandos git](https://education.github.com/git-cheat-sheet-education.pdf)
+  Otros Comandos que se pueden utilizar en GIT  
+  ![Comandos git](https://res.cloudinary.com/practicaldev/image/fetch/s--w-UEE2WQ--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/8cl1lotlaikqp8vhhr6i.png)
