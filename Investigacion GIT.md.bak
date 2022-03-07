@@ -1,4 +1,5 @@
-# Investigacion GIT
+# Investigacion GIT  
+![GIT](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Git-logo.svg/640px-Git-logo.svg.png)
 **Presentado por:** Jose Andres Marquez Morataya
 Desarrollo de investigacion sobre el funcionamiento de git  
 La herramienta de GIT es sumamente usada por los desarrolladores de software para llevar el control de cambios y el compartir el codigo de una manera facil  

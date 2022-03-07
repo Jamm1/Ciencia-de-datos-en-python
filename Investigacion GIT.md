@@ -8,6 +8,6 @@ El control de versiones es un sistema que registra los cambios en un archivo o c
 recuperar versiones específicas más adelante. Entonces,idealmente, podemos colocar cualquier archivo en la computadora en el control de versiones.  
 Un Sistema de control de versiones (VCS) le permite revertir los archivos a un estado anterior, revertir todo el proyecto a un estado anterior, revisar 
 los cambios realizados a lo largo del tiempo, ver quién modificó por última vez algo que podría estar causando un problema, quién introdujo un problema 
-y cuando, y más informacion que ayuda a la identificacion del codigo y al orden
+y cuando, y más informacion que ayuda a la identificacion del codigo y al orden.
 
 
